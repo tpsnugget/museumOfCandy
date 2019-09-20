@@ -89,7 +89,8 @@
                   <h2>MUSEUM OF CANDY</h2>
                   <img id="lolly" class="d-none d-lg-inline" src="lolly.png" alt="">
                   <p class="lead">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, omnis recusandae? Aliquam cum
+                     I couldn't find the right retro gumball image, so I chose one from the London Underground. Lorem
+                     ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, omnis recusandae? Aliquam cum
                      exercitationem incidunt nisi voluptatem, ipsam ullam fugit numquam? Nihil at voluptate neque optio
                      aliquam, ipsa exercitationem, quos perferendis libero asperiores amet aspernatur!
                   </p>
@@ -97,8 +98,27 @@
             </div>
          </div>
          <div class="col-md-6">
-            <img class="img-fluid" src="lidya-nada--iX-0JI8-0Y-unsplash.jpg"
+            <img class="img-fluid" src="joseph-balzano-CezpbuAU-LQ-unsplash.jpg" alt="London Underground">
+         </div>
+      </div>
+
+      <div class="row align-items-center content">
+         <div class="col-md-6 order-2 order-md-1">
+            <img class="img-fluid" src="amy-shamblen-X3ijISYzlM4-unsplash.jpg"
                alt="Bottle of milk with straw impaling a doughnut">
+         </div>
+         <div class="col-md-6 order-1 order-md-2">
+            <div class="row text-center justify-content-center">
+               <div class="col-md-9 loremIpsem">
+                  <h2>MUSEUM OF CANDY</h2>
+                  <img id="lolly" class="d-none d-lg-inline" src="lolly.png" alt="">
+                  <p class="lead">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, omnis recusandae? Aliquam cum
+                     exercitationem incidunt nisi voluptatem, ipsam ullam fugit numquam? Nihil at voluptate neque optio
+                     aliquam, ipsa exercitationem, quos perferendis libero asperiores amet aspernatur!
+                  </p>
+               </div>
+            </div>
          </div>
       </div>
    </section>
@@ -114,6 +134,16 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+   <script src="museumOfCandy.js"></script>
+   <script>
+      $(function () {
+         $(document).scroll(function () {
+            var $nav = $("#mainNavBar")
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height())
+         })
+      }
+      )
+   </script>
 </body>
 
 </html>
