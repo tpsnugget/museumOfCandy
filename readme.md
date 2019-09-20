@@ -12,4 +12,5 @@
 - Added the second section and the third section
 - Fixed the order-size-number
 
-
+# Version 5:
+- Added some JS to fade the navbar to a different color when scrolled more than the height of the navbar itself
